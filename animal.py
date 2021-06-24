@@ -69,3 +69,4 @@ print(maria.get_friends())
 maria.add_friend('george')
 maria.add_friend('george')
 print(maria.get_friends())
+
