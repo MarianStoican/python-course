@@ -28,4 +28,3 @@ teams2 = scrap(teams_rows_etapa2)
 
 for i in range(0, len(teams2)):
     print(teams1[i] + '  -  ' + teams2[i])
-
