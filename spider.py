@@ -8,6 +8,7 @@ soup = BeautifulSoup(page.content, 'html.parser')
 stage_table = soup.find(class_='clasament_general white-shadow etape_meciuri')
 
 
+
 print("-------------------------------------------------------------------------------------------------")
 
 teams_rows_etapa1 = stage_table.findAll(class_='echipa-etapa-1')
